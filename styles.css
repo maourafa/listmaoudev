@@ -84,3 +84,33 @@ main {
 .pakettop{
   text-align: right;
 }
+
+.button-container {
+            display: flex;
+            gap: 5px; /* Space between buttons */
+        }
+        .whatsapp-button {
+            background-color: #15d100;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Make anchor behave like a button */
+            text-align: center;
+}
+
+.yt {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make anchor behave like a button */
+  text-align: center;
+}
