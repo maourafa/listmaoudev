@@ -114,3 +114,8 @@ main {
   display: inline-block; /* Make anchor behave like a button */
   text-align: center;
 }
+
+.info {
+  color: white;
+  text-align: left;
+}
